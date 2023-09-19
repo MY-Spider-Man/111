@@ -1,5 +1,7 @@
 <template>
-  111
+  <div class="box">
+
+  </div>
 </template>
 
 <script lang="ts" setup>
@@ -10,4 +12,9 @@ const route = useRoute();
 const router = useRouter();
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.box{
+  width: 100%;
+  height: 93vh;
+}
+</style>
